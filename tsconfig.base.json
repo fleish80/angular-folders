@@ -18,9 +18,7 @@
       "@angular-folders/lib-a": ["libs/lib-a/src/index.ts"],
       "@angular-folders/lib-a/lib-a-one": ["libs/lib-a/lib-a-one/src/index.ts"],
       "@angular-folders/lib-a/lib-a-two": ["libs/lib-a/lib-a-two/src/index.ts"],
-      "@angular-folders/lib-b": ["libs/lib-b/src/index.ts"],
-      "@angular-folders/lib-b/lib-b-one": ["libs/lib-b/lib-b-one/src/index.ts"],
-      "@angular-folders/lib-b/lib-b-two": ["libs/lib-b/lib-b-two/src/index.ts"]
+      "@angular-folders/lib-b": ["libs/lib-b"],
     }
   },
   "exclude": ["node_modules", "tmp"]

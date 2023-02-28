@@ -1,1 +1,1 @@
-export * from './lib/lib-b-one.module';
+export * from './lib/lib-b-one.component';
