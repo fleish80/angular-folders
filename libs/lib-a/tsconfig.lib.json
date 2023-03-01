@@ -5,7 +5,11 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": []
+    "types": [],
+    "paths": {
+      "@angular-folders/lib-a/*": ["dist/libs/lib-a/*"],
+      "@angular-folders/lib-b/*": ["dist/libs/lib-b/*"],
+    }
   },
   "exclude": [
     "src/test-setup.ts",

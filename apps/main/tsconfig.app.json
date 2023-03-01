@@ -2,7 +2,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
-    "types": []
+    "types": [],
+    "paths": {
+      "@angular-folders/lib-a/*": ["dist/libs/lib-a/*"],
+      "@angular-folders/lib-b/*": ["dist/libs/lib-b/*"],
+    }
   },
   "files": ["src/main.ts"],
   "include": ["src/**/*.d.ts"],
