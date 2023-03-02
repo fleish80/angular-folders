@@ -1,12 +1,16 @@
-import { NxWelcomeComponent } from './nx-welcome.component';
-import { RouterModule } from '@angular/router';
-import { Component } from '@angular/core';
+import {RouterModule} from '@angular/router';
+import {Component} from '@angular/core';
+import {LibAOneComponent} from '@angular-folders/lib-a/lib-a-one';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, LibAOneComponent],
   selector: 'angular-folders-root',
-  templateUrl: './app.component.html',
+  template: `
+    <router-outlet></router-outlet>
+    <angular-folders-lib-a-one/>
+
+  `,
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {

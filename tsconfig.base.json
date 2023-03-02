@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+
+      "@angular-folders/lib-a/*": ["libs/lib-a/*"],
+
+      "@angular-folders/lib-b/*": ["libs/lib-b/*"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
